@@ -14,3 +14,5 @@ Unit values and conversions are as follows:
 1 Hammer Unit =  0.75 inches (derived from the [Valve Developer Wiki](https://developer.valvesoftware.com/wiki/Dimensions_(Half-Life_2_and_Counter-Strike:_Source)) stating that 16 Hammer Units is typically equal to 1 foot)
 
 h=d/0.625 and d=h*0.625 (From calculations I did myself)
+
+The house-2-hammer branch has slightly different calculations that were specifically made for my recreation of myhouse.pk3 and take into account the mod's increased view height.
