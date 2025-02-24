@@ -10,7 +10,6 @@ def unitGetter(type):
     global hammerUnits
     if type == "doom":
         doomUnits = userUnits.get()
-        print(doomUnits)
     elif type == "hammer":
         hammerUnits = userUnits.get()
     getterPassed = True
